@@ -68,6 +68,9 @@ h3{
 section article{
     margin-bottom: 40px;
 }
+section article iframe{
+    height: 280px;
+}
 .artfechas{
     background-color: #0c0c0c;
     padding: 10px;
@@ -92,6 +95,7 @@ section article a{
 section article a:hover{
     color: #ffffff !important;
 }
+
 header nav{
     display: flex;
 }
