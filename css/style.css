@@ -1,0 +1,178 @@
+/* Reset css*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* New Code Starts */
+body{
+    background-color: #000000;
+    font-family: 'Noto Sans', sans-serif;
+    color: #ffffff8c;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+    padding: 20px;
+}
+h2,h3{
+    font-family: 'Creepster', cursive;
+    color: #ffffff8c;
+}
+h2{
+    font-size: 35px;
+    text-align: center;
+}
+h3{
+    font-size: 25px;
+    text-align: center;
+}
+section article{
+    margin-bottom: 40px;
+}
+.artfechas{
+    background-color: #0c0c0c;
+    padding: 10px;
+    
+    
+}
+.artfechas h2{
+    padding: 20px;
+}
+section article a{
+    text-decoration: none;
+    font-family: 'Creepster', cursive;
+    color: #ffffff8c !important;
+    font-size: 20px;
+    display: inline-flex;
+    padding: 10px;
+    border: 2px solid #ffffff8c;
+    margin-left: 242px; 
+
+}
+
+section article a:hover{
+    color: #ffffff !important;
+}
+header nav{
+    display: flex;
+}
+header #en{
+    text-decoration: none;
+    float: right;
+    color: #ffffff8c;
+    margin-right: 5px;
+    font-size: 10px;
+    margin-top: 5px;
+    font-family: 'Roboto Slab', serif;
+}
+header a:hover{
+    color: #ffffff;
+}
+.fechas{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.fechas span{
+    border: 1px solid #ffffff8c;
+    padding: 20px;
+    flex-basis: 37%;
+}
+
+.iconoMenuDesplegable {
+    position: relative;
+    width: 40px;
+    padding: 10px;
+    margin-top: 28px;
+    
+
+}
+.iconoMenuDesplegable>span, .iconoMenuDesplegable>span::after {
+    position: absolute;
+    border: 6px solid #000000; /* border color */
+    border-width: 6px 0;
+    -moz-transition: all 0.3s ease-in;
+    -webkit-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in;
+    background: #ffffff8c;
+   
+}
+.iconoMenuDesplegable>span {
+    cursor: pointer;
+    width: 27px;
+    height: 27px;
+}
+.iconoMenuDesplegable>span::after {
+    content: "";
+    width: 100%;
+    height: 19%;
+    top: 19%;
+}
+p{
+    font-family: 'Roboto Slab', serif;
+}
+/*.efecto>span,.efecto>span::after {
+    border-color:#808080;
+}*/
+
+/* definimos el menu */
+#menu {
+    display:none;
+    list-style: none;
+    padding:19px;
+    margin-top:108px;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.95);
+}
+#menu a:link, a:visited, a:hover {color:#0000ab;text-decoration:none;}
+#menu li {
+    color: #ffffff8c;
+    padding:5px 0px;
+    margin-bottom: 5px;
+    
+}
+#menu li:hover {
+    /*background-color:#ffffff;*/
+    color: #ffffff;
+    padding:5px 0px;
+    /*border-bottom:1px solid #fff;*/
+}
