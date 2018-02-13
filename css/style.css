@@ -66,14 +66,15 @@ h3{
     text-align: center;
 }
 section article{
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 section article iframe{
     height: 280px;
 }
 .artfechas{
-    background-color: #0c0c0c;
+    background-color: #1d1c1c;
     padding: 10px;
+    
     
     
 }
@@ -114,6 +115,7 @@ header a:hover{
 .fechas{
     display: flex;
     flex-wrap: wrap;
+    margin-bottom: 30px;
     
 }
 .fechas span{
@@ -121,7 +123,45 @@ header a:hover{
     padding: 20px;
     flex-basis: 37%;
 }
+.artstaff{
+    padding: 10px;
+}
 
+.staff{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.staff span{
+    border: 1px solid #ffffff8c;
+    padding: 20px;
+    flex-basis: 37%;
+    text-align: justify;
+}
+#h2staff{
+    padding: 0 20px 20px 20px;
+}
+.staff span img{
+    width: 80%;
+    margin-left: 17px;
+    margin-bottom: 10px;
+   
+}
+#form{
+    background-color: #1d1c1c;
+    padding: 10px;
+}
+#form h2{
+    padding: 20px;
+}
+#form input, #form textarea{
+    background-color: #000;
+    color: #ffffff8c;
+    border: 1px solid grey;
+    font-family: 'Creepster';
+    margin-top: 10px;
+    font-size: 19px;
+}
 .iconoMenuDesplegable {
     position: relative;
     width: 40px;
