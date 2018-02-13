@@ -67,10 +67,27 @@ h3{
 }
 section article{
     margin-bottom: 20px;
+    text-align: right;
+    padding: 10px;
+    
 }
-section article iframe{
+.embed-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    margin: 40px 0 40px 0;
+}
+.embed-container iframe {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+/*section article iframe{
     height: 280px;
-}
+}*/
 .artfechas{
     background-color: #1d1c1c;
     padding: 10px;
@@ -86,10 +103,8 @@ section article a{
     font-family: 'Creepster', cursive;
     color: #ffffff8c !important;
     font-size: 20px;
-    display: inline-flex;
     padding: 10px;
     border: 2px solid #ffffff8c;
-    margin-left: 242px; 
 
 }
 
@@ -121,7 +136,7 @@ header a:hover{
 .fechas span{
     border: 1px solid #ffffff8c;
     padding: 20px;
-    flex-basis: 37%;
+    /*flex-basis: 41%;*/
 }
 .artstaff{
     padding: 10px;
@@ -135,7 +150,7 @@ header a:hover{
 .staff span{
     border: 1px solid #ffffff8c;
     padding: 20px;
-    flex-basis: 37%;
+    /*flex-basis: 41%;*/
     text-align: justify;
 }
 #h2staff{
@@ -150,9 +165,11 @@ header a:hover{
 #form{
     background-color: #1d1c1c;
     padding: 10px;
+    text-align: unset;
 }
 #form h2{
     padding: 20px;
+   
 }
 #form input, #form textarea{
     background-color: #000;
