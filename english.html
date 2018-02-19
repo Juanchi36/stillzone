@@ -35,24 +35,25 @@
                     <ul id="menu">
                         <a href="index.html"><li>HOME</li></a>
                         <a href=""><li>HISTORY</li></a>
-                        <a href=""><li>STAFF</li></a>
-                        <a href="#fechas"><li>TOUR DATES</li></a>
+                        <a href="#h2staff"><li>STAFF</li></a>
+                        <a href=""><li>DISCOGRAFY</li></a>
+                        <a href="#h2fechas"><li>TOUR DATES</li></a>
                         <a href=""><li>GALERY</li></a>
-                        <a href=""><li>CONTACT US</li></a>
+                        <a href="#h2contacto"><li>CONTACT US</li></a>
                     </ul>
                 <nav>
-            <h1><img src="imagenes/logo-mobile.png" alt="Logo de StillZone"></h1>
+            <h1><img src="imagenes/logo.png" alt="Logo de StillZone"></h1>
         
     </header>
     <section>
-        <article>
+        <article class="artultimo">
             <h2>Last Album</h2>
             <h3>Exclusión Social</h3>
-            <iframe width="360" height="315" src="https://www.youtube.com/embed/9FZNTnYlu9Y?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            <div class="embed-container"><iframe width="350" height="280" src="https://www.youtube.com/embed/9FZNTnYlu9Y?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
             <a href="https://www.youtube.com/watch?v=Arq0XqIszNE&t=719s" target="_blank">Listen it</a>
         </article>
         <article class="artfechas">
-            <h2 id="fechas">Tour Dates</h2>
+            <h2 id="h2fechas">Tour Dates</h2>
             <div class="fechas">
             <span><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum unde cumque, dolorum nisi consequuntur blanditiis necessitatibus. </p></span>
             <span><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio repellendus quam harum necessitatibus! </p></span>
@@ -61,6 +62,27 @@
             
             </div>
         </article>
+        <article class="artstaff">
+                <h2 id="h2staff">Staff</h2>
+                <div class="staff">
+                    <span><img src="imagenes/roque.jpg" alt="Roque cantando"/><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum unde cumque, dolorum nisi consequuntur blanditiis necessitatibus. </p></span>
+                    <span><img src="imagenes/yunta.jpg" alt="El Burgues con la guitarra"/><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio repellendus quam harum necessitatibus! </p></span>
+                    <span><img src="imagenes/gustavo.jpg" alt="Guatavo en el bajo"/><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio at ab quibusdam eaque dolore itaque similique.</p></span>
+                    <span><img src="imagenes/pablo.jpg" alt="Pablo tocando la batería"/><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio at ab quibusdam eaque dolore itaque similique.</p></span>
+                    
+                    </div>
+            </article>
+            <article id="form">
+                <h2 id="h2contacto">Contact Us</h2>
+                <form>
+                    <label>
+                        <div id="input"><input type="text" name="nombre" placeholder="Your name: ">
+                        <input type="text" name="mail" placeholder="Your e-mail: "></div>
+                        <textarea name="textarea" cols="29" rows="8" placeholder="Leave us your message:"></textarea>
+                        <input type="submit" name="enviar" value="Send">
+                    </label>
+                </form>
+            </article>
     </section>
     
 </body>
