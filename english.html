@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -86,4 +87,94 @@
     </section>
     
 </body>
+=======
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>StillZone</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Creepster|Roboto+Slab" rel="stylesheet">
+    <script src="js/jquery.min.js" type="text/javascript"></script>
+    <script>
+            $(document).ready(function(){
+                $(".iconoMenuDesplegable").click(function(){
+                    if($("#menu").is(":visible"))
+                    {
+                        $("#menu").slideUp("fast");
+                        $(".iconoMenuDesplegable").removeClass("efecto");
+                    }else{
+                        $("#menu").slideDown("fast");
+                        $(".iconoMenuDesplegable").addClass("efecto");
+                    }
+                });
+            });
+            </script>
+</head>
+<body>
+    <header>
+            <a id="en" href="index.html">ESP</a>
+            <nav>
+                    
+                    <div class="iconoMenuDesplegable">
+                        <span></span>
+                    </div>
+                    <ul id="menu">
+                        <a href="index.html"><li>HOME</li></a>
+                        <a href=""><li>HISTORY</li></a>
+                        <a href="#h2staff"><li>STAFF</li></a>
+                        <a href=""><li>DISCOGRAFY</li></a>
+                        <a href="#h2fechas"><li>TOUR DATES</li></a>
+                        <a href=""><li>GALERY</li></a>
+                        <a href="#h2contacto"><li>CONTACT US</li></a>
+                    </ul>
+                <nav>
+            <h1><img src="imagenes/logo.png" alt="Logo de StillZone"></h1>
+        
+    </header>
+    <section>
+        <article class="artultimo">
+            <h2>Last Album</h2>
+            <h3>Exclusión Social</h3>
+            <div class="embed-container"><iframe width="350" height="280" src="https://www.youtube.com/embed/9FZNTnYlu9Y?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
+            <a href="https://www.youtube.com/watch?v=Arq0XqIszNE&t=719s" target="_blank">Listen it</a>
+        </article>
+        <article class="artfechas">
+            <h2 id="h2fechas">Tour Dates</h2>
+            <div class="fechas">
+            <span><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum unde cumque, dolorum nisi consequuntur blanditiis necessitatibus. </p></span>
+            <span><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio repellendus quam harum necessitatibus! </p></span>
+            <span><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio at ab quibusdam eaque dolore itaque similique.</p></span>
+            <span><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio at ab quibusdam eaque dolore itaque similique.</p></span>
+            
+            </div>
+        </article>
+        <article class="artstaff">
+                <h2 id="h2staff">Staff</h2>
+                <div class="staff">
+                    <span><img src="imagenes/roque.jpg" alt="Roque cantando"/><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum unde cumque, dolorum nisi consequuntur blanditiis necessitatibus. </p></span>
+                    <span><img src="imagenes/yunta.jpg" alt="El Burgues con la guitarra"/><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio repellendus quam harum necessitatibus! </p></span>
+                    <span><img src="imagenes/gustavo.jpg" alt="Guatavo en el bajo"/><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio at ab quibusdam eaque dolore itaque similique.</p></span>
+                    <span><img src="imagenes/pablo.jpg" alt="Pablo tocando la batería"/><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio at ab quibusdam eaque dolore itaque similique.</p></span>
+                    
+                    </div>
+            </article>
+            <article id="form">
+                <h2 id="h2contacto">Contact Us</h2>
+                <form>
+                    <label>
+                        <div id="input"><input type="text" name="nombre" placeholder="Your name: ">
+                        <input type="text" name="mail" placeholder="Your e-mail: "></div>
+                        <textarea name="textarea" cols="29" rows="8" placeholder="Leave us your message:"></textarea>
+                        <input type="submit" name="enviar" value="Send">
+                    </label>
+                </form>
+            </article>
+    </section>
+    
+</body>
+>>>>>>> aacdf7930fe4523861f6122fc84b15f2ccb1474c
 </html>
