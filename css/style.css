@@ -53,6 +53,9 @@ h1{
     text-align: center;
     padding: 20px;
 }
+h1 img{
+    width: 80%;
+}
 h2,h3{
     font-family: 'Creepster', cursive;
     color: #ffffff8c;
@@ -90,10 +93,14 @@ section article{
 }*/
 .artfechas{
     background-color: #1d1c1c;
-    padding: 10px;
+    padding: 10px 10px 25px 10px;
     
     
     
+    
+}
+.artultimo{
+    margin: 45px 0 45px 0;   
 }
 .artfechas h2{
     padding: 20px;
@@ -154,22 +161,23 @@ header a:hover{
     text-align: justify;
 }
 #h2staff{
-    padding: 0 20px 20px 20px;
+    padding: 20px;
+}
+#h2contacto{
+    margin-top: 20px;
 }
 .staff span img{
     width: 80%;
     margin-left: 17px;
     margin-bottom: 10px;
-   
 }
 #form{
     background-color: #1d1c1c;
     padding: 10px;
-    text-align: unset;
+    text-align: unset;  
 }
 #form h2{
-    padding: 20px;
-   
+    padding: 20px; 
 }
 #form input, #form textarea{
     background-color: #000;
@@ -183,9 +191,7 @@ header a:hover{
     position: relative;
     width: 40px;
     padding: 10px;
-    margin-top: 28px;
-    
-
+    margin-top: 28px; 
 }
 .iconoMenuDesplegable>span, .iconoMenuDesplegable>span::after {
     position: absolute;
@@ -195,7 +201,6 @@ header a:hover{
     -webkit-transition: all 0.3s ease-in;
     transition: all 0.3s ease-in;
     background: #ffffff8c;
-   
 }
 .iconoMenuDesplegable>span {
     cursor: pointer;
@@ -223,13 +228,13 @@ p{
     margin-top:108px;
     position: absolute;
     background-color: rgba(0, 0, 0, 0.95);
+    z-index: 100;
 }
 #menu a:link, a:visited, a:hover {color:#0000ab;text-decoration:none;}
 #menu li {
     color: #ffffff8c;
     padding:5px 0px;
     margin-bottom: 5px;
-    
 }
 #menu li:hover {
     /*background-color:#ffffff;*/
